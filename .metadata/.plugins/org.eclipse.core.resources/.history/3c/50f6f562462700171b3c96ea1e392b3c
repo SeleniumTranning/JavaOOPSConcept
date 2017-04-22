@@ -1,0 +1,12 @@
+package Encapsulation;
+
+public class Phone {
+	
+	private int value;
+	private String color;
+	
+	void display(){
+		System.out.println("Method To display");
+	}
+
+}

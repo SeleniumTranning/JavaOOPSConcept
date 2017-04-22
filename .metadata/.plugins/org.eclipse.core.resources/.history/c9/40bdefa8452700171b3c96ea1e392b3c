@@ -1,0 +1,12 @@
+package ClassObjects;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Phone ph = new Phone();
+		
+
+	}
+
+}
