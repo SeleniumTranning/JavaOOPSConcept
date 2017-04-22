@@ -1,0 +1,30 @@
+package Constructor;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Phone ph = new Phone(10000, "Black");
+		System.out.println(ph.color);
+		System.out.println(ph.value);
+		ph.display();
+		
+		Phone ph2 = new Phone("Blue",20000);
+		System.out.println(ph.color);
+		System.out.println(ph.value);
+		ph.display();
+		
+		Phone ph = new Phone(10000, "Black");
+		System.out.println(ph.color);
+		System.out.println(ph.value);
+		ph.display();
+		
+		Phone ph = new Phone(10000, "Black");
+		System.out.println(ph.color);
+		System.out.println(ph.value);
+		ph.display();
+		
+
+	}
+
+}

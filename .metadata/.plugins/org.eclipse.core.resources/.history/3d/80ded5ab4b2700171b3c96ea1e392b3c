@@ -1,0 +1,16 @@
+package Constructor;
+
+public class Phone {
+	
+	int value;
+	String color;
+	
+	void display(){
+		System.out.println("Method To display");
+	}
+	
+	Phone(int val, String color){
+		value = val;
+	}
+
+}

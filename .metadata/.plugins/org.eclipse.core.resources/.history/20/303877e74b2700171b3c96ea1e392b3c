@@ -1,0 +1,15 @@
+package Constructor;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Phone ph = new Phone(10000, "Black");
+		System.out.println(ph.color);
+		System.out.println(ph.value);
+		System.out.println(ph.display();
+		
+
+	}
+
+}
